@@ -1,0 +1,113 @@
+/* style - All The Page */
+body{
+    direction: rtl;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/* style - header */
+body{
+    background-color: rgb(224, 224, 224);
+    /* width: 100%; */
+}
+.header{
+    width: 100vw;
+    background-image: url(./images/HomePage/imgHomePage.jpg);
+    height: 26vh;
+}
+#apartment{
+    height: 35vh;
+    position: relative;
+    right: 10%;
+}
+#logo{
+    width: 40vw;
+    position: relative;
+    right: 30vw;
+    top: 4vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* style - navgition bar */
+.bar{
+    height: 5vh;
+    position: sticky;
+    top: 0;
+}
+ul{
+    background-color: rgb(120, 120, 120);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -5px;
+    padding: 0;
+}
+li{
+    display: inline;
+    border-top-color: black;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 3.5vh;
+}
+li:hover{
+    background-color: rgb(196, 194, 194);
+    opacity: 0.5;
+    animation-name: resize;
+    animation-duration: 1s;
+}
+  @keyframes resize{
+    0%   {height: 3.5vh;}
+    50%  {height: 4vh;}
+    100%  {height: 3.5vh;}
+}
+li a{
+    color: white;
+    font-size: x-large;
+}
+li a:visited{
+    color: white;
+}
+a{
+    margin: 3vw;
+}
+/* style - content */
+#content{
+    width: 100vw;
+    text-align: justify;
+}
+h2{
+    width: 60vw;
+    margin: 10vh auto;
+    color: #00584e;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+}
+p{
+    width: 60vw;
+    margin: 10vh auto;
+    font-size: 22px;
+}
+.advantage{
+    height: 100%;
+    display: block;
+    margin: 5vw auto;
+}
+/* style - footer */
+.footer{
+    height: 25vh;
+    width: 100vw;
+    background-color: #343a40;
+}
+.logoFooter{
+    height: 20%;
+    position: relative;
+    top: 30%;
+    right: 39vw;
+    color: #d8e4f1;
+}
+.socialNetworks{
+    position: relative;
+    top: 15vh;
+    right: 36.7vw;
+}

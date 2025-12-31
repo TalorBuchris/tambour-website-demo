@@ -31,7 +31,7 @@ HomePage.html
 styleHomePage.css  
 
 ## 🙋‍♀️ Authors
-Developed by Talor Buchritz  
+Developed by Talor Cohen (Buchritz)
 As part of a front-end learning exercise.  
 
 ## 📄 License
